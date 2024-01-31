@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consulta 2: Padres sin hijos</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h2>Padres sin hijos</h2>
+                <div class="buttons">
+                    <button
+                        id="mostrarPadresBtn"
+                        onclick="mostrarPadresSinHijos()"
+                    >
+                        Mostrar Padres
+                    </button>
+                </div>
+            </div>
+
+            <div class="side">
+                <table id="resultadoConsulta2">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultadoConsulta2Body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="js/app-consulta2.js"></script>
+    </body>
+</html>

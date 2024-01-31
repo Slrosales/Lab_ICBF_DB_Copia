@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRUD Hijo</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <input type="text" id="hijo-id" placeholder="ID" />
+                <input type="text" id="hijo-nombre" placeholder="Nombre" />
+                <input
+                    type="text"
+                    id="hijo-hijode"
+                    placeholder="ID del Padre (puede dejarse vacío)"
+                />
+                <div class="buttons">
+                    <button onclick="insertarHijo()">Insertar</button>
+                    <button onclick="actualizarHijo()">Actualizar</button>
+                </div>
+            </div>
+
+            <div class="side">
+                <h2>Hijos</h2>
+				<table id="tabla-hijos">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Nombre</th>
+							<th>ID del Padre</th>
+							<th>Acciones</th>
+						</tr>
+					</thead>
+					<tbody id="tabla-hijos-body">
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+							
+							</td>
+						</tr>
+					</tbody>
+            </div>
+        </div>
+        <script src="js/app-hijo.js"></script>
+    </body>
+</html>

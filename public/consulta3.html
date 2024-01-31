@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consulta 3: Hijos sin padre</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h2>Hijos sin padre</h2>
+                <div class="buttons">
+                    <button
+                        id="mostrarPadresBtn"
+                        onclick="mostrarHijosSinPadre()"
+                    >
+                        Mostrar Hijos
+                    </button>
+                </div>
+            </div>
+
+            <div class="side">
+                <table id="resultadoConsulta3">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultadoConsulta3Body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="js/app-consulta3.js"></script>
+    </body>
+</html>

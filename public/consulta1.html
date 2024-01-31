@@ -1,0 +1,40 @@
+<!-- consulta1.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consulta 1: Hijos de un padre seleccionado</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h2>Hijos de un padre seleccionado</h2>
+                <label for="padreId">ID del Padre:</label>
+                <input type="text" id="padreId" />
+                <div id="padre_info"></div>
+                <div class="buttons">
+                    <button onclick="mostrarHijosPorPadre()">
+                        Mostrar Hijos
+                    </button>
+                </div>
+            </div>
+
+            <div class="side">
+                <table id="resultadoConsulta1">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>ID del Padre</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultadoConsulta1Body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="js/app-consulta1.js"></script>
+    </body>
+</html>

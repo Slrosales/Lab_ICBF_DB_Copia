@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consulta 4: Padres con número de hijos</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h2>Padres con número de hijos</h2>
+                <div class="buttons">
+                    <button
+                        id="mostrarPadresBtn"
+                        onclick="mostrarPadresConNumeroDeHijos()"
+                    >
+                        Mostrar Padres
+                    </button>
+                </div>
+            </div>
+
+            <div class="side">
+                <table id="resultadoConsulta4">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Número de Hijos</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultadoConsulta4Body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="js/app-consulta4.js"></script>
+    </body>
+</html>

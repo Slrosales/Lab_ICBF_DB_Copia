@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRUD Padre</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h2>CRUD tabla PADRE</h2>
+                <input type="text" id="padre-id" placeholder="ID" />
+                <input type="text" id="padre-nombre" placeholder="Nombre" />
+                <div class="buttons">
+                    <button onclick="insertarPadre()">Insertar</button>
+                    <button onclick="actualizarPadre()">Actualizar</button>
+                </div>
+            </div>
+
+            <div class="side">
+                <h2>Padres</h2>
+                <table id="tabla-padres">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-padres-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <script src="js/app-padre.js"></script>
+    </body>
+</html>
