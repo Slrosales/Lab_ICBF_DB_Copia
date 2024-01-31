@@ -1,7 +1,12 @@
+
+
 <div align="center">
   <h1>
-    ICBF - Laboratorio de Bases de Datos
+     Sistema de Información para el Instituto de Bienestar Familiar
   </h1>
+  <h4>
+    ICBF - Laboratorio de Bases de Datos
+  </h4>
 
 
 [![GitHub lellerena](https://img.shields.io/badge/by-lellerena-red)](https://github.com/lellerena)
@@ -11,8 +16,6 @@
 [![GitHub jfbenitezz](https://img.shields.io/badge/by-jfbenitezz-blue)](https://github.com/jfbenitezz)
 
 </div>
-
-# Sistema de Información para el Instituto de Bienestar Familiar
 
 ## Descripción
 Este proyecto es un sistema de información diseñado para el Instituto de Bienestar Familiar. Su objetivo principal es facilitar la gestión y seguimiento de los niños y sus relaciones con los padres registrados en el instituto.
