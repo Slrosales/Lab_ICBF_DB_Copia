@@ -63,5 +63,5 @@ Este proyecto es un sistema de información diseñado para el Instituto de Biene
 -   Juan Maestre
 -   Edinson Noriega
 
-Profesor a cargo: Ing. Mg. Luis Llach
+Profesor a cargo: Ing. Mg. Luis Llach.
 
